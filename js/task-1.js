@@ -1,4 +1,8 @@
-const getUserNames = users => users.map(user => user.name);
+const getUserNames = users => {
+  const newArray = users.map(user => user.name);
+
+  return newArray;
+};
 console.log(
   getUserNames([
     {
